@@ -1,0 +1,16 @@
+.SlList {        
+    position: relative;
+    transform: scale(1.2);
+    top: 15%;
+    left: 22%;
+    color: white;
+}
+
+.GrClose {
+    position: relative;
+    transform: scale(1.2);
+    top: 10%;
+    left: 20%;
+    color: white !important;
+    
+}

@@ -1,0 +1,72 @@
+.MainSection {
+    width: 100%;
+    margin: auto;
+}
+
+.MainSectionBox {
+    width: 70%;
+    min-width: 680px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    height: auto;
+    background-color: #fff;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 3px 3px 10px black;
+    z-index: 10;
+}
+
+.container01 {
+    width: 100%;    
+    height: 400px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: linear-gradient(90deg, rgb(136, 0, 160) 0%, rgba(73, 63, 252, 1) 100%);
+
+}
+
+.sliderBox {
+    width: 80%;
+    height: inherit;
+    background-color: rgb(211, 106, 230)
+}
+
+.container02 {
+    width: 100%;
+    height: 300px;
+    padding: 20px 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
+.container>div {
+    width: auto;
+    margin: 0 1%;
+    padding: 1%;
+}
+
+
+
+.container .side_bar {
+    width: 2px;
+    height: inherit;
+    background: linear-gradient(90deg, rgb(136, 0, 160) 0%, rgba(73, 63, 252, 1) 100%);
+}
+
+h2 {
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(90deg, rgb(136, 0, 160) 0%, rgba(73, 63, 252, 1) 100%);
+    background-clip: text;
+}
+
+.imgBox {
+    width: inherit;
+    height: inherit;
+    
+}
