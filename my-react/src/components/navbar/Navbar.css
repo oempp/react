@@ -1,19 +1,26 @@
+.Navbar_bg_color {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(90deg, rgb(136, 0, 160) 0%, rgba(73, 63, 252, 1) 100%);
+    z-index: 1000;
+    position: fixed;
+}
+
 .Navbar {
     width: 100%;
-    position: fixed;
-    background: linear-gradient(90deg, rgb(136, 0, 160) 0%, rgba(73, 63, 252, 1) 100%);
+    max-width: 1600px;
+    margin: auto;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-    z-index: 1000;
+    font-size: 20px;
 }
 
 .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 50px;
     min-width: 220px;
     cursor: pointer;
 }
@@ -62,8 +69,6 @@
         position: fixed;
         z-index: 1000;
     }
-
-
 
     .nav-menu {
         flex-direction: column;

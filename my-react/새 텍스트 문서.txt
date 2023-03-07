@@ -1,0 +1,124 @@
+
+◎ 플랫폼 측면
+1) 윈도우 소프트웨어 개발자
+윈도우 환경에서 실행 되고 데이터 처리를 하는 소프트웨어를 개발 하는 개발자 입니다. 익혀야 할 기술들은 아래와 같습니다.
+- 화면 및 데이터 처리: C# Winform, C# WPF, JAVA SWING, Win32API, Delphi, Visual Basic, Python QT GUI, Power Builder
+- RDBMS: Oracle, MSSQL, MariaDB
+- Grid Component: Chart FX, DevExpress, C1 Component
+ 
+2) 웹 소프트웨어 개발자
+웹 환경에서 실행 되고 데이터 처리를 하는 소프트웨어를 개발 하는 개발자이다. 익혀야 할 기술들은 아래와 같습니다.
+- Front-End(Client) 언어(화면 및 데이터 처리): HTML, HTML5, CSS, Javascript, JSON(JavaScript Object Notation), AJAX(Asynchronous Javascript And XML)
+- Front-End(Client) Framework:  VueJs, React, Angular, Jquery, Semantic-UI
+
+- Back-End(Server) 언어 : JSP/Servlet, PHP, ASP.NET(C#), Python(Django)
+- Back-End(Server) Framework: Node.js(JavaScript), Django(Python), Spring(Java), Laravel(PHP), Rails(Ruby)
+
+- 웹 서버(Web Server): IIS(Internet Information Services), Apache Tomcat, Apache
+
+- RDBMS: Oracle, MSSQL, MariaDB
+
+- Grid Component: Chart FX, DevExpress, ComponentOne
+ 
+3) 앱 소프트웨어 개발자
+모바일 앱 환경에서 실행 되고 데이터 처리를 하는 소프트웨어를 개발 하는 개발자입니다.
+익혀야 할 기술들은 아래와 같습니다.
+ - 안드로이드: Java, Kotlin(코틀린) 2개 중에 1개만 하면 됨
+ - iOS: Objective-C(오브젝티브-C), Swift(스위프트) 2개 중에 1개만 만 하면 됨
+       맥 컴퓨터, 맥 북이 있어야 개발 환경을 구축 할 수 있다.
+ 
+4) 시스템 소프트웨어(임베디드) 개발자
+IoT 환경(소형 기계, 센서 등) 실행 되고 데이터 처리를 하는 소프트웨어를 개발 하는 개발자다.
+하드웨어 제어, 운영체제, 소량 네트워크 기능을 구현 한다.
+익혀야 할 기술들은 아래와 같습니다.
+ - 윈도우 화면 및 데이터 처리: Win32API, Visual C++.NET, Delphi, C++QT
+ - Console 화면 및 데이터 처리: Assembly language, C, C++
+
+5) 게임 소프트웨어 개발자
+게임 환경에서 환경 실행되고 데이터 처리를 하는 소프트웨어를 개발하는 개발자입니다. 
+익혀야 할 기술들은 아래와 같습니다.
+- 유니티(UNI.T) 환경: C# 언어, 유니티 엔진
+- 콘솔(게임기) 환경: WIN32API, Direct X 프로그래밍, Open GL
+
+유니티 엔진이 나오기 전까지는 순수 상업용 게임을 개발하려면
+WIN32API 언어와 Direct X 프로그래밍, Open GL 프로그래밍을 했었어야 했습니다.
+
+유니티 엔진 이후로는 C# 언어와 유니티 엔진 이용하여 게임을 개발하면 됩니다.
+하지만 일반 게임기(콘솔 게임기) 같은 게임을 개발하려면 WIN32API 언어는 꼭 공부해야 합니다.
+ 
+
+◎업무환경 측면
+1) 네트워크 소프트웨어 개발자
+네트워크 환경에서 실행 되고 데이터 처리를 하는 소프트웨어를 개발 하는 개발자입니다.
+순수 네트워크 기능만 개발 합니다. 익혀야 할 기술들은 아래와 같습니다.
+- 윈도우 화면 및 데이터 처리: C# TCP/IP Socket, C# Serial Bus, Java Socket, Delphi Socket, Win32API WinSock, Visual C++.NET WinSock
+- Console 화면 및 데이터 처리: C Socket, C++ Socket, C# TCP/IP Socket, C# Serial Bus, Java Socket
+- 솔루션: Zero MQ(Message Queue), IBM MQ(Message Queue), Apache Active MQ(Message Queue), Rabbit MQ(Message Queue)
+ 
+2) 데이터 베이스 소프트웨어 개발자
+데이터 베이스 환경 실행 되고 데이터 처리를 하는 소프트웨어를 개발 하는 개발자입니다.
+익혀야 할 기술들은 아래와 같다.
+- 윈도우 화면 및 데이터 처리: Power Builder, C# Winform, C# WPF, C# ADO.NET 기능 사용, JAVA SWING 에 JDBC 기능 사용, Delphi DataBase Component
+- RDBMS: Oracle, MSSQL, MariaDB
+- BigData: Python, R, MongoDB
+ 
+3) 솔루션(제품) 소프트웨어 개발자
+여러 시스템 환경에서 문제 해결 상황을 찾아서 제품화하여 데이터 처리를 하는 소프트웨어를 개발하는 개발자입니다.
+실행 환경이라는 제약이 없이 여러가지의 분야에 관련된 언어를 공부해야 합니다.
+다른 솔루션(제품) 소프트웨어를 개발하려면 기업 업무를 처리하는 ERP 솔루션 개발, 
+제조 생산 업무를 처리는 MES 솔루션 개발, 기타 V3, 알집, 알약, 엑셀, 파워포인트 같은 솔루션을 개발할 수가 있습니다.
+
+4) 공통업무 소프트웨어 개발자
+고액 연봉 받는 소프트웨어 개발자 분류하나입니다.
+여러가지 모듈이나 데이터 흐름을 공통적인 부분을 찾아서 체계화 시켜야 하는 개발 업무입니다.
+개발 경험도 많아야 하고, 많은 업무를 알아야 하고, 그에 관련된 IT지식과 코딩(Coding) 스킬도 겸비 해야 합니다.
+그렇게 때문에 고액 연봉을 받는 것입니다.
+
+5)AI(인공지능) 소프트웨어 개발자
+고액 연봉 받는 소프트웨어 개발자 분류하나 이다. 하지만 공부 할게 한두 가지가 아닙니다.
+익혀야 할 기술들은 아래와 같다.
+ - 인공지능 기본이론: Deep Learning(심층 학습), Machine Learning(기계 학습)
+ - 컴퓨터언어: Python Basic, Python Library 다루기
+ - 수학: 통계학, 선형대수학
+ - 인공지능 Library: 파이토치(PyTorch), 텐서플로(Tensorflow), 케라스(Kears)
+ - 컴퓨터 공학 지식: 소프트웨어 공학, 알고리즘, 자료구조
+
+6)블록체인(Block Chain) 개발자
+금융보안 세부적인 분야 이면서 블록체인(Block Chain)기술을 활용할 수 있도록 
+소프트웨어를 설계하고 개발하는 개발자입니다.
+
+그외로 업무로 블록체인(Block Chain)기술 이용하여 가상 암호 화폐를 개발 하여 
+실제 생활에 사용 할수 있도록 대중화를 하는 일도 합니다.
+다들 아시다시피 대표적인 가상화폐가 '비트코인(Bitcoin), 이더리움(Ethereum)'같은 코인입니다.
+
+비트코인(Bitcoin)개발자는 '사토시 나카모토'입니다.
+이더리움(Ethereum)개발자는 '비탈릭 부테린'입니다.
+
+익혀야 할 기술들은 아래와 같습니다.
+ - 컴퓨터관련 지식 : 프로그래밍 언어, 네트워크, 데이터베이스,서버, 디지털보안, 자료구조, 알고리즘 등
+ - 프로그래밍 언어 : C++, GO, JavaScript, Solidity
+ - 암호화 지식:  대칭키(비공개키): DES, 3DES, AES, SEED, HIGHT, IDEA, RC5, ARIA
+                         비대칭키(공개키): Diffie-Hellman 키 교환, DSS, ElGamal, ECC, RSA 
+ - 금융경제의 흐름과 동향 파악을 하는 역량
+
+
+7)SAP ABAP 소프트웨어 개발자
+아마도 개발자 중에서도 최고의 연봉을 받는 개발자가 아닐까 합니다.
+3년차 프리랜서 개발자가 월천 이상을 번다고 하니 합니다.
+그만큼 들어기가 힘들고 진입장벽이 높다는 뜻입니다.
+
+독일 회사인 SAP에서 개발한 ERP 솔루션이 있습니다.
+그것을 SAP ERP라고 부른다.
+ERP 솔루션이다 보니 업무 환경에 맞게 커스터마이징(Customizing) 수정을 해야합니다.
+그 수정을 하려면 언어가 필요하다. 
+그 언어가 바로 ABAP(Advanced Business Application Programming)입니다.
+그래서 ABAP 개발자라고 부릅니다.
+
+익혀야 할 기술들은 아래와 같습니다.
+ - Netweaver를 설치 해서 공부하기
+ - SAP 교육 센터에서 700만원이 넘는 교육을 받아야 합니다.
+ - SAP ABAP Certification을 취득 한다.
+ - 필요하다면 각 모듈(FI, PP, MM등) Certification을 취득합니다.
+
+이렇게 소프트웨어 개발자 종류가 많습니다.
+취준생들에게 이렇게 많은 정보를 접하게 한 다음에 선택지를 줘야 합니다.

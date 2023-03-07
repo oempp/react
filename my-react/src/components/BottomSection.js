@@ -1,11 +1,25 @@
 import React from "react";
-import './BottomSection.css'
+
+/* css */
+import Styles from './Section.module.css';
+
 
 function BottomSection() {
     return (
-        <div className="BottomSection">
-            <span className="BottomHorizonBar"></span>
-            <h2>is done?</h2>
+        <div className={Styles.section_bg3}>
+            <div><p className={`${Styles.title_fontsize} ${Styles.font_color}`}>Skills</p></div>
+            <div className={Styles.top_section_container02}>
+                <div>
+                    Web Programming
+                </div>
+                <div>
+                    Design
+                </div>
+                <div>
+                    Programming
+                </div>
+
+            </div>
         </div>
     );
 }

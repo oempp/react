@@ -16,27 +16,30 @@ function Navbar() {
     }
     var navMenuIcons = clicked ? <GrClose className='GrClose' /> : <SlList className='SlList' />;
     return (
-        <nav className="Navbar">
-            <h1 className="navbar-logo">My-react home<i className="fab fa-react"></i></h1>
+        <div className='Navbar_bg_color'>
+            <nav className="Navbar">
 
-            <div className="menu-icon" onClick={handleClick}>
-                <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                {navMenuIcons}
-            </div>
-            <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
-                {MenuItems.map((item, index) => {
-                    return (
-                        <li key={index}>
-                            <a className={item.cName} hre={item.url}>
-                                {item.title}
-                            </a>
-                        </li>
-                    )
-                })}
-            </ul>
-            <Button>Sign Up</Button>
+                <h1 className="navbar-logo">My-react home<i className="fab fa-react"></i></h1>
 
-        </nav>
+                <div className="menu-icon" onClick={handleClick}>
+                    <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                    {navMenuIcons}
+                </div>
+                <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
+                    {MenuItems.map((item, index) => {
+                        return (
+                            <li key={index}>
+                                <a className={item.cName} hre={item.url}>
+                                    {item.title}
+                                </a>
+                            </li>
+                        )
+                    })}
+                </ul>
+                <Button>Sign Up</Button>
+
+            </nav>
+        </div>
     )
 }
 export default Navbar

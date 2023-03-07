@@ -1,0 +1,120 @@
+.section_bg {   
+    width: 100%;
+    background-color: #e8e8e8;
+    height: fit-content;
+    padding-bottom: 30px;
+    
+}
+.section_bg2 {   
+    width: 100%;
+    background-color: #ededed;
+    height: fit-content;
+    padding-bottom: 30px;
+}
+.section_bg li {
+    list-style: disc;
+}
+.section_bg3 {   
+    width: 100%;
+    background-color: #ededed;
+    height: 300px;
+    background: linear-gradient(90deg, rgb(136, 0, 160, 1) 0%, rgba(73, 63, 252, 1) 80%);
+}
+
+.font_color {
+    color: transparent;
+    background-clip: text;
+    background: linear-gradient(90deg, rgb(136, 0, 160, 1) 0%, rgba(73, 63, 252, 1) 80%);
+    -webkit-background-clip: text;    
+}
+
+.top_section_container {
+    padding-top: 80px;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_section_container02 {
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.top_section_container02 > div {
+    width: 30%;
+    margin-left: 10%;
+    height: inherit;
+}
+.top_section_container02 p {
+    padding-top: 5%
+
+}
+
+.top_section_container02 ul {
+    padding-left: 15% ;
+}
+.top_section_container02 li {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(136, 0, 160, 1);    
+}
+.top_section_container02 li span {
+    color: black;
+}
+.top_section_txt {
+    padding-left: 10%;
+    width: 60%;   
+    display: flex;
+    align-items: center;
+    height: inherit;
+    font-size: 60px;
+    font-weight: bold;    
+    transform: skewX(-10deg);    
+}    
+
+.top_section_cont {
+    width: 30%;   
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: inherit;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 1s;    
+}
+
+.title_fontsize{
+    padding:10px 0 10px 10%;
+    max-width: 1600px;
+    margin: auto;
+    font-size: 60px;
+    font-weight: bold;
+}
+.ul_title_fonsize{
+    font-size: 30px;
+    font-weight: bold;
+}
+.imgframe {
+    height: 50px;
+}
+
+.skills_imgsize {
+    height: 200px;
+}
+
+.set_ifame iframe {
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(135,0,161);
+    background: linear-gradient(180deg, rgb(255, 255, 255, 1) 20%, rgba(0, 49, 64, 1) 80%);
+    border-radius: 50%;
+}
+
