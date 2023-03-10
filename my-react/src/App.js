@@ -1,62 +1,65 @@
 import { BrowserRouter, Routes, Route, NavLink, Link, useParams } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import './css/init.css'
 import './css/Icons.css'
 import './css/App.css'
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 /* components */
 import Navbar from './components/navbar/Navbar';
-import TopSection from './components/TopSection';
-import TopSection2 from './components/TopSection2';
-import MidSection2 from './components/MidSection2';
-import BottomSection from './components/BottomSection';
-import Shadowdom from './components/Shadowdom';
+import { MenuItems } from "./components/navbar/MenuItems";
+import HomeSection from './components/HomeSection';
+import Mysection from './components/Mysection';
+import ProjectSection from './components/ProjectSection';
+
 
 /* Context */
 import { MainContext } from './context/MainContext';
 
+
 /* icons */
 function App() {
 
-/*   const iframeHtml = () => {
-    return {
-      __html: `<iframe src='./src/components/app1.html' width='100%' height='700px'></iframe>`
-    }; */
-  }
   const Skills = {
     web: ["HTML", "CSS", "JavaScript", "React.js", "Vue.js"],
     system: ["C/C++"],
     design: ["Photoshop", "Illustrator", "Pigma"]
   }
 
+  const [inProp, setInProp] = useState(false);
+  const nodeRef = useRef(null);
 
-  document.addEventListener('scroll', function () {
-    console.log(window.scrollY)
-  })
+
+  /*   document.addEventListener('scroll', function () {
+      console.log(window.scrollY)
+    }) */
 
 
   return (
-    <BrowserRouter>
-      <div className="App">
-        <MainContext.Provider value={Skills}>
-          <Navbar />
-          <TopSection />
-          <TopSection2 />
-          <MidSection2 />
-         {/*  <Shadowdom dangerouslySetInnerHTML={iframeHtml()} /> */}
-          <BottomSection />
-          <div></div>
-        </MainContext.Provider>
-        {/* Routes */}
-        <Routes>
-          <Route></Route>
-        </Routes>
+    <div className="App">
+      <MainContext.Provider value={Skills}>
+        <BrowserRouter>
+          <Navbar props={setInProp} />
+          {/* Routes */}
+          <CSSTransition nodeRef={nodeRef} in={inProp} classNames="my-node" timeout={200} >
+            <Routes>
+              <Route path='/' element={<HomeSection />}></Route>
+              <Route path='about' element={<Mysection />}></Route>
+              <Route path='project' element={<ProjectSection />}></Route>
+            </Routes>
+          </CSSTransition>
+          <nav>
+            <Link to='/'>Home</Link>
+            <Link to='about'>about</Link>
+            <Link to='project'>project</Link>
+          </nav>
+        </BrowserRouter >
 
-      </div>
-    </BrowserRouter>
+      </MainContext.Provider>
+
+    </div>
   );
 }
-
 export default App;
 

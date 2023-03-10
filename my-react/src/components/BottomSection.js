@@ -1,7 +1,9 @@
 import React from "react";
 
-/* css */
-import Styles from './Section.module.css';
+/* scss */
+import Styles from '../styles/styles.module.css';
+
+
 
 
 function BottomSection() {

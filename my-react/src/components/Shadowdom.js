@@ -1,14 +1,15 @@
-import React from "react";
-
-
+import { React } from "react";
 
 function Shadowdom() {
-
+    const iframePart = () => {
+        return {
+            __html: `<iframe src="/html/screen01.html" width='100%' height='1400px' margin=''></iframe>`,
+        };
+    };
     return (
-        <div>
-            <h1>__html : </h1>
-            __html :
-        </div>
+        <div
+            dangerouslySetInnerHTML={iframePart()}
+        />
     );
 }
 

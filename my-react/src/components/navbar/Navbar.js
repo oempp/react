@@ -1,19 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { MenuItems } from "./MenuItems";
 import Button from '../Button'
+
+import { Link } from 'react-router-dom';
 
 /* icons */
 import { SlList } from "react-icons/sl";
 import { GrClose } from "react-icons/gr";
 
-function Navbar() {
+function Navbar(props) {
 
     const [clicked, setClicked] = useState(false);
     //false = bars, true = times
     const handleClick = () => {
         setClicked(!clicked);
     }
+    useEffect(() => {
+        console.log(props)
+
+    }, [])
     var navMenuIcons = clicked ? <GrClose className='GrClose' /> : <SlList className='SlList' />;
     return (
         <div className='Navbar_bg_color'>
@@ -29,9 +35,9 @@ function Navbar() {
                     {MenuItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                <a className={item.cName} hre={item.url}>
+                                <Link to={item.url} className={item.cName} hre={item.url} >
                                     {item.title}
-                                </a>
+                                </Link>
                             </li>
                         )
                     })}
