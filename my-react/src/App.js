@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="App">
-      <MainContext.Provider value={Skills}>
+      <MainContext.Provider value={Skills + inProp}>
         <BrowserRouter>
           <Navbar props={setInProp} />
           {/* Routes */}
