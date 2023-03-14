@@ -38,7 +38,7 @@ function App() {
 
   return (
     <div className="App">
-      <MainContext.Provider value={Skills + inProp}>
+      <MainContext.Provider value={Skills}>
         <BrowserRouter>
           <Navbar props={setInProp} />
           {/* Routes */}
@@ -55,7 +55,6 @@ function App() {
             <Link to='project'>project</Link>
           </nav>
         </BrowserRouter >
-
       </MainContext.Provider>
 
     </div>

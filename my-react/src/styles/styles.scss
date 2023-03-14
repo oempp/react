@@ -26,26 +26,33 @@ $color_gradient: linear-gradient(90deg, rgb(136, 0, 160, 1) 0%, rgba(73, 63, 252
     opacity: 0;
     transition: 2;
 } */
+
+
 .main_bg {
     position: relative;
     top: 80px;
     width: 100%;
     min-height: 1200px;
     height: 90vh;
-    background-color: $color_white;
+/*     background-color: $color_white;
+    background: url("../images/background/333.svg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
 }
-/* .main_bg::after {
+/* .main_bg::before {
     content: "";
     width: 100%;
+    min-height: 1200px;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: darkmagenta;
-    opacity: 0.2;
-  
+    background: url('../images/background/222.svg') no-repeat center;
+    background-size: 100%;  
 } */
 .section_bg {
     width: 100%;
