@@ -10,6 +10,7 @@ import { useState, useRef } from 'react';
 import Navbar from './components/navbar/Navbar';
 import { MenuItems } from "./components/navbar/MenuItems";
 import HomeSection from './components/HomeSection';
+
 import Mysection from './components/Mysection';
 import ProjectSection from './components/ProjectSection';
 

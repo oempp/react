@@ -1,0 +1,128 @@
+.fade-in-txt {
+    transition: 3s;
+    opacity: 1;
+    filter: blur(0);
+}
+
+.fade-out-txt {
+    opacity: 0;
+    filter: blur(4px);
+}
+
+/* main TXT */
+h1 {
+}
+.Menu-list {
+    /* font-size: 4.25rem;
+    line-height: 1.2; */
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotateX(-10deg) rotateY(20deg);
+}
+
+.Menu-list-item {
+    position: relative;
+    color: transparent;
+    cursor: pointer;
+}
+
+.Menu-list-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 49%;
+    left: -10%;
+    right: -10%;
+    height: 4px;
+    border-radius: 4px;
+    margin-top: -2px;
+    background: #fff;
+    transform: scale(0);
+    transition: transform 0.8s cubic-bezier(0.16, 1.08, 0.38, 0.98);
+    z-index: 1;
+}
+
+.Mask {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    color: transparent;
+    background: linear-gradient(90deg, rgb(136, 0, 160, 1) 0%, rgba(73, 63, 252, 1) 80%);
+    background-clip: text;
+    top: 0;
+    height: 49%;
+    transition: all 0.8s cubic-bezier(0.16, 1.08, 0.38, 0.98);
+}
+
+.Mask span {
+    display: block;
+    color: transparent;
+    background: linear-gradient(90deg, rgb(136, 0, 160, 1) 0%, rgba(73, 63, 252, 1) 80%);
+    background-clip: text;
+}
+
+.Mask + .Mask {
+    top: 48.9%;
+    height: 51.1%;
+}
+
+.Mask + .Mask span {
+    transform: translateY(-49%);
+}
+
+.Menu-list-item:hover .Mask,
+.Menu-list-item:active .Mask {
+    color: #fff;
+    transform: skewX(12deg) translateX(5px);
+}
+
+.Menu-list-item:hover .Mask + .Mask,
+.Menu-list-item:active .Mask + .Mask {
+    transform: skewX(12deg) translateX(-5px);
+}
+
+.Menu-list-item:hover::before,
+.Menu-list-item:active::before {
+    transform: scale(1);
+}
+
+/* TXT */
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+    background: #eee;
+
+  }    
+  .shadows {
+      position: relative;
+      text-transform: uppercase;
+      text-shadow: -15px 5px 20px #afafaf;
+      color: white;
+      letter-spacing: -0.05em;
+      font-family: 'Anton', Arial, sans-serif;
+      user-select: none;
+      text-transform: uppercase;
+      font-size: 120px;
+      font-weight: bold;
+      transition: all 0.25s ease-out;      
+  }
+  .non_shadows {
+    position: absolute;
+    font-size: 120px;
+    font-weight: bold;
+    color: darkcyan;
+    
+  }
+  .shadows:hover {
+      text-shadow: -16px 6px 15px #9f9f9f;
+  }
+

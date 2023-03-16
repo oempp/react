@@ -68,7 +68,7 @@ function Mysection() {
             <div><h2 ref={nameRefH2} className={`${Styles.title_fontsize} ${Styles.font_color}`}>Profile</h2><span className={Styles.move_stick}></span></div>
             <div className={Styles.top_section_container02}>
                 <div className={Styles.set_iframebox}>
-                    <iframe className={Styles.set_iframe} src="https://giphy.com/embed/qgQUggAC3Pfv687qPC" frameBorder="0" allowFullScreen></iframe><p className={Styles.namevia} ><a href="https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC">via GIPHY</a></p>
+                    <iframe className={Styles.set_iframe} src="https://giphy.com/embed/qgQUggAC3Pfv687qPC" frameBorder="0" allowFullScreen target="_blank"></iframe><p className={Styles.namevia} ><a href="https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC" target="_blank">via GIPHY</a></p>
                 </div>
                 <div className={Styles.txtframe}>
                     <p>Tae-woon Song</p>
