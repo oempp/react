@@ -8,6 +8,8 @@ import { MainContext } from "../context/MainContext";
 
 function Mysection() {
 
+        var increase = (function () { var counter = 0;return function () { return ++counter;  }; }())
+
     const skills = useContext(MainContext);
     console.log(skills);
     const webListFunc = (props) => {

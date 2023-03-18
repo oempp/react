@@ -25,7 +25,7 @@ function Navbar(props) {
         <div className='Navbar_bg_color'>
             <nav className="Navbar">
 
-                <h1 className="navbar-logo">My-react home<i className="fab fa-react"></i></h1>
+                <h1 className="navbar-logo">react home<i className="fab fa-react"></i></h1>
 
                 <div className="menu-icon" onClick={handleClick}>
                     <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
